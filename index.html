@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script defer src="./index.js" type="module"></script>
+    <title>Homepage</title>
+    <style>
+        #SearchBox {
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+            color: honeydew;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: auto;
+            font-style: italic;
+        }
+
+        input {
+            padding: 10px;
+            width: 17%;
+            border-radius: 20px;
+            border: 2px solid gray;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        button {
+            width: 50px;
+            font-size: 27px;
+            border-radius: 17px;
+            background-color: white;
+            border: 2px solid gray;
+        }
+
+        #food_image {
+            height: 450px;
+            width: 500px;
+            border-radius: 10px;
+        }
+
+        #mainDiv {
+            padding: 25px;
+            margin-top: 5px;
+            gap: 150px;
+        }
+
+        #div1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color: teal;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navBar">
+        <ul>
+            <li>
+                <a href="./index.html">Homepage</a>
+            </li>
+            <li>
+                <a href="./recipe.html">Special Recipe</a>
+            </li>
+            <li>
+                <a id="s" href="./signup.html">Sign Up</a>
+            </li>
+            <li>
+                <a id="n" href="./login.html">
+                    Login
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div id="SearchBox">
+        <label for="">Search : - </label>&nbsp;
+        <input type="text" name="" placeholder="Enter Recipe Name" id="search">&nbsp;
+        <button id="searchBtn"><i class="fa-brands fa-searchengin"></i></button>
+    </div>
+
+
+
+    <div id="food">
+
+    </div>
+
+</body>
+
+
+</html>
