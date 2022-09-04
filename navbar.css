@@ -1,0 +1,27 @@
+body{
+    background: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvbG9yJTIwZ3JhZGllbnR8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=1580&q=20);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 20px;
+  
+}
+ul > li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: olive;
+    font-style: italic;
+    font-weight: 700;
+    border: 3px solid crimson;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:darkgrey;
+}
